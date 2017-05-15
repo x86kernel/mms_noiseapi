@@ -20,7 +20,5 @@ from django.contrib import admin
 from app_noiseapi.views import noise_api
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-
 	url(r'^api/noise/', noise_api.as_view()),
 ]
